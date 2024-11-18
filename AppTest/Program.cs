@@ -1,3 +1,6 @@
+using System;
+//su dung system
+
 namespace AppTest
 {
     internal static class Program
@@ -12,6 +15,8 @@ namespace AppTest
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
+
+
         }
     }
 }
